@@ -1,0 +1,49 @@
+/* Main Skills Page Styling */
+.skills-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Skills Grid Layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Individual Skill Card Styling */
+.skill-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Skill Icon Styling */
+.skill-icon {
+  font-size: 2.5rem;
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+}
+
+/* Skill Name Styling */
+.skill-name {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
